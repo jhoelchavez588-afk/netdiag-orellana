@@ -9,12 +9,12 @@ PING_N=20
 IPERF_T=10
 
 # Servidores iperf3 (cambiar cuando los tengas; "CAMBIAR" = se omite iperf3)
-IPERF_INST="CAMBIAR"
-IPERF_EXT="CAMBIAR"
+IPERF_INST="${IPERF_INST:-CAMBIAR}"
+IPERF_EXT="${IPERF_EXT:-CAMBIAR}"
 
 # nombre|tipo|host(ping/traceroute)|dominio(dig)|servidor_iperf|puerto
 DESTINOS=(
-  "espoch|INSTITUCIONAL|www.espoch.edu.ec|www.espoch.edu.ec|$IPERF_INST|5201"
+  "espoch|INSTITUCIONAL|www.espoch.edu.ec|www.espoch.edu.ec|$IPERF_INST|${IPERF_PORT:-5201}"
   "externo|EXTERNO|1.1.1.1|google.com|$IPERF_EXT|5201"
 )
 
