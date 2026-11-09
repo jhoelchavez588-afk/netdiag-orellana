@@ -1,0 +1,16 @@
+timestamp,ciclo,destino,tipo,host,metrica,valor,unidad,estado
+2026-11-09T08:17:53-05:00,1,espoch,INSTITUCIONAL,espoch.edu.ec,ping_loss,100,%,ERROR
+2026-11-09T08:17:53-05:00,1,espoch,INSTITUCIONAL,espoch.edu.ec,ping_rtt_mediana,,ms,ERROR
+2026-11-09T08:17:55-05:00,1,espoch,INSTITUCIONAL,espoch.edu.ec,traceroute_saltos,20,saltos,INCOMPLETO
+2026-11-09T08:17:55-05:00,1,espoch,INSTITUCIONAL,espoch.edu.ec,dns_query_time,0,ms,OK
+2026-11-09T08:17:55-05:00,1,espoch,INSTITUCIONAL,espoch.edu.ec,iperf_tcp_mbps,,Mbps,NO_CONFIGURADO
+2026-11-09T08:17:55-05:00,1,espoch,INSTITUCIONAL,espoch.edu.ec,iperf_udp_mbps,,Mbps,NO_CONFIGURADO
+2026-11-09T08:18:04-05:00,1,externo,EXTERNO,1.1.1.1,ping_rtt_min,13.6,ms,OK
+2026-11-09T08:18:04-05:00,1,externo,EXTERNO,1.1.1.1,ping_rtt_mediana,28.600,ms,OK
+2026-11-09T08:18:04-05:00,1,externo,EXTERNO,1.1.1.1,ping_rtt_max,31.4,ms,OK
+2026-11-09T08:18:04-05:00,1,externo,EXTERNO,1.1.1.1,ping_loss,0,%,OK
+2026-11-09T08:18:04-05:00,1,externo,EXTERNO,1.1.1.1,ping_jitter,6.353,ms,OK
+2026-11-09T08:18:06-05:00,1,externo,EXTERNO,1.1.1.1,traceroute_saltos,9,saltos,OK
+2026-11-09T08:18:06-05:00,1,externo,EXTERNO,1.1.1.1,dns_query_time,16,ms,OK
+2026-11-09T08:18:06-05:00,1,externo,EXTERNO,1.1.1.1,iperf_tcp_mbps,,Mbps,NO_CONFIGURADO
+2026-11-09T08:18:06-05:00,1,externo,EXTERNO,1.1.1.1,iperf_udp_mbps,,Mbps,NO_CONFIGURADO
